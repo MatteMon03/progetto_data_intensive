@@ -51,7 +51,7 @@ Il file binario `xgb_model_ott.so` potrebbe non essere presente nel repository p
 ### 3. Avviare il Server Web
 
 Il backend Python deve essere in esecuzione per permettere al sito di effettuare le previsioni:
-python app.py
+./.venv/bin/python3 app.py
 Il server si avvierà su `http://127.0.0.1:5000`.
 
 ### 4. Avviare l'Interfaccia Utente
